@@ -2,8 +2,8 @@ num_images = 36;
 num_train = 31;
 num_test = num_images - num_train;
 
-image_rows = 182;
-image_cols = 312;
+image_rows = 69;
+image_cols = 117;
 
 forgery_train = zeros(image_rows, image_cols, num_train);
 forgery_test = zeros(image_rows, image_cols, num_test);
